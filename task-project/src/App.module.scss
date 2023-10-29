@@ -1,0 +1,14 @@
+.button_change{
+    min-width: 170px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: none;
+
+    &:hover{
+        background: #2e2e2e;
+    }
+}

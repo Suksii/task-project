@@ -1,0 +1,38 @@
+//.__card-list{
+//    width: 70%;
+//    display: flex;
+//    flex-wrap: wrap;
+//    gap: 5rem;
+//    margin: 5rem auto;
+//    justify-content: center;
+//}
+.__sort-task{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    .__status{
+        min-width: 100px;
+        width: 90%;
+        border-radius: 1px;
+        padding: 5px 10px;
+        text-align: center;
+        margin: 1rem auto;
+
+        &-done{
+            background: #2ecc71;
+        }
+        &-to-do{
+            background: #e74c3c;
+        }
+        &-wishlist{
+            background: #3498db;
+        }
+        &-in-progress{
+            background: #f1c40f;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.__table_container{
+    display: flex;
+    justify-content: center;
+    padding: 5vw 0;
+    align-items: center;
+}
+.__table{
+    width: 60%;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    text-align: center;
+}
+.__table thead{
+    background-color: #111111;
+    color: #fff;
+}
+.__table tbody tr:nth-child(even){
+    background-color: #D3D3D3
+}
+.__table thead tr th{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.__table tbody tr td{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.__change_icon{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.__delete_icon{
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+}
+@media screen and (max-width: 700px){
+    .__table_container{
+        .__table{
+            width: 80%;
+        }
+    }
+}
