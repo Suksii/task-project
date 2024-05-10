@@ -21,6 +21,7 @@ This was my first project where I used Javascript functionalities in a React pro
 - **useState Hook:** The useState hook is extensively used for managing component-level state, enabling dynamic updates and re-renders based on user interactions and data changes.
 
 - ## Installation
-1. Clone the repository: `git clone <repo-url>`
-2. Install dependencies: `npm install`
-3. Run the application: `npm start`
+1. Clone the repository: `git clone "https://github.com/Suksii/task-project.git"`
+2. Find the location cd task-project/task-project
+3. Install dependencies: `npm install`
+4. Run the application: `npm run dev`
