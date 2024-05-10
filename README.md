@@ -22,6 +22,6 @@ This was my first project where I used Javascript functionalities in a React pro
 
 - ## Installation
 1. Clone the repository: `git clone "https://github.com/Suksii/task-project.git"`
-2. Find the location cd task-project/task-project
+2. Find the location `cd task-project/task-project`
 3. Install dependencies: `npm install`
 4. Run the application: `npm run dev`
